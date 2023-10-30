@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Alegreya', serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* End of global */
+/* start of nav */
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+nav ul {
+    float: right;
+    line-height: 4.5;
+}
+
+nav img {
+    height: 45px;
+    margin-top: 18px;
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav .blk {
+    color: black;
+}
+
+nav a {
+    color: #8b8b8b;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.clr {
+    clear: both;
+}
+
+
+/* End of nav */
+/* Start of home page */
+.main {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+}
+
+.text p:first-child {
+    font-weight: light;
+    padding-top: 280px;
+    font-size: 18px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.text h1 {
+    font-weight: lighter;
+    font-size: 5rem;
+}
+
+.text p:last-of-type {
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+}
+
+.btns button {
+    padding: 20px 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 25px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btns .colored {
+    background-color: #8e7754;
+}
+
+.btns .white {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+/* End of home page */
+/* Start of Who we are */
+.who {
+    padding: 150px 0;
+}
+
+.who-left {
+    width: 49%;
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.who img {
+    width: 90%;
+    border-radius: 1%;
+}
+
+.who-right {
+    width: 49%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.who h1 {
+    font-weight: lighter;
+    padding-top: 50px;
+}
+
+.who .f-p {
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 1.5;
+    color: #8b8b8b;
+    padding-top: 25px;
+}
+
+.who .heads {
+    padding: 25px 0;
+}
+
+.who .heads p {
+    padding: 10px 0;
+    color: #8b8b8b;
+    font-family: 'Alegreya Sans', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.who .heads p img {
+    width: 40px;
+    border: 1px solid #8b8b8b59;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* End of who we are */
+/* Start Of location */
+.loc {
+    background-color: #f8f8f8;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.loc-left {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.loc img {
+    width: 90%;
+    border-radius: 1%;
+    margin-left: 20px;
+}
+
+.loc-right {
+    width: 49%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.loc h1 {
+    font-weight: lighter;
+}
+
+.loc .f-p {
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 2;
+    font-size: 17px;
+    padding: 25px 25px 25px 0;
+}
+
+.loc .s-p {
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 2;
+    font-size: 17px;
+    padding-right: 25px;
+}
+
+/* End Of location */
+/* Start of our */
+.our {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.our-top {
+    padding-bottom: 50px;
+    line-height: 2.5;
+    text-align: center;
+}
+
+.our-top h1 {
+    font-weight: 400;
+}
+
+.our-top p {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #8b8b8b;
+}
+
+.our-bottom {
+    width: 100%;
+}
+
+.our-bottom .product {
+    width: 31%;
+    float: left;
+    text-align: center;
+}
+
+.our-bottom .product:first-of-type {
+    margin-right: 3%;
+}
+
+.our-bottom .product:last-of-type {
+    margin-left: 3%;
+}
+
+.our-bottom .product img {
+    width: 100%;
+    border-radius: 1%;
+}
+
+.clr {
+    /* clear: both; */
+}
+
+.product h2 {
+    font-family: 'Alegreya', sans-serif;
+    margin-top: 25px;
+    font-weight: 400;
+}
+
+.product p {
+    color: #8b8b8b;
+    line-height: 2;
+    font-size: 1rem;
+    margin: 25px 20px;
+}
+
+/* End of our*/
+/* start of location */
+.contact {
+    background-color: #f8f8f8;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.cont-left {
+    width: 50%;
+    float: left;
+}
+
+.cont-right {
+    float: right;
+    width: 50%;
+}
+
+.cont-left .txt {
+    color: #686868;
+    padding: 40px 70px;
+    padding-left: 0;
+}
+
+.cont-left h1 {
+    font-family: "Alegreya";
+    font-weight: lighter;
+    color: #303030;
+}
+
+.cont-left h5 {
+    padding-bottom: 30px;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    color: #686868;
+    font-size: 1.1rem;
+}
+
+.cont-heads p {
+    color: #686868;
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+}
+
+.cont-heads p img {
+    width: 36px;
+    background-color: #8e7754;
+    border: 1px solid #8b8b8b59;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* End of location */
+/* Start of footerI */
+.footerI {
+    background-color: #403d38;
+    padding-bottom: 30px;
+}
+
+.footerI img {
+    width: 40px;
+}
+
+.foot-cont div {
+    width: 23%;
+    float: left;
+    margin: 1%;
+}
+
+.foot-cont .sec-div {
+    width: 100%;
+    display: inline-block;
+}
+
+.foot-cont h1 {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    padding: 60px 0px 25px;
+}
+
+.foot-cont P {
+    color: #8b8b8b;
+    line-height: 2;
+    font-family: "Alegreya Sans";
+}
+
+.about p:first-of-type {
+    size: 1rem;
+    padding-bottom: 20px;
+}
+
+.foot-cont .sp p,
+.hr p {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.048);
+}
+
+.foot-cont .sp p:last-child,
+.hr p:last-child {
+    border-bottom: none;
+}
+
+
+.foot-cont .map {
+    position: relative;
+}
+
+.foot-cont .map::after {
+    content: "";
+    background-image: url('../images/contact-details-map.png');
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+    background-repeat: no-repeat;
+
+}
+
+.details .det-sec p:first-of-type {
+    display: flex;
+    align-items: start;
+}
+
+.details .det-sec p:last-of-type {
+    border: none;
+}
+
+.details .det-sec p {
+    display: flex;
+    align-items: end;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.048);
+}
+
+.details .det-sec a {
+    font-style: none;
+    z-index: 1;
+    color: #8b8b8b;
+}
+
+/* End of footerI */
+/* Start of lastfooter */
+footer {
+    background-color: #353330;
+    padding: 50px 0 35px 0;
+    color: #8b8b8b;
+}
+
+footer .content {
+    /* align-items: center; */
+    text-align: center;
+
+}
+
+footer .logo {
+    margin-bottom: 50px;
+}
+
+footer .logos img {
+    width: 45px;
+    background-color: #484540;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+footer p {
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+footer .fb:hover {
+    background-color: #3b5998;
+    transition: color .3s, background-color .3s, border-color .3s;
+    ;
+}
+
+footer .google:hover {
+    background-color: #dd4b39;
+    transition: color .3s, background-color .3s, border-color .3s;
+}
+
+footer .twitter:hover {
+    background-color: #00aced;
+    transition: color .3s, background-color .3s, border-color .3s;
+}
+
+footer .linkedin:hover {
+    background-color: #007bb5;
+    transition: color .3s, background-color .3s, border-color .3s;
+}
+
+/* End of lastfooter */
